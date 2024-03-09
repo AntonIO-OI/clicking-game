@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    135deg,
+    #6d78ff,
+    #00ffb8
+  ); /* Gradient from blue to green */
+}
+
+.container {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background for the game container */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}

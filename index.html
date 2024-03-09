@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idle Clicker Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Idle Clicker Game</h1>
+      <p>Click the button to earn points!</p>
+      <button id="clickButton">Click Me!</button>
+      <p>Points: <span id="points">0</span></p>
+
+      <div id="upgrades">
+        <h2>Upgrades</h2>
+        <button id="upgradeClick">Upgrade Click (+1 point per click)</button>
+        <p>Click Upgrade Cost: <span id="clickUpgradeCost">10</span></p>
+        <button id="upgradeIdle">Upgrade Idle (+1 point per second)</button>
+        <p>Idle Upgrade Cost: <span id="idleUpgradeCost">20</span></p>
+      </div>
+
+      <br />
+      <p>Points per Second: <span id="pointsPerSecond">0</span></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
