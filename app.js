@@ -3,6 +3,7 @@ let pointsPerSecond = 1;
 let pointsPerClick = 1;
 let clickUpgradeCost = 10;
 let idleUpgradeCost = 20;
+tg.expand();
 
 // Function to update points every second (idle)
 setInterval(function () {
