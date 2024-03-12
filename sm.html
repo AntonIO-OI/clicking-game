@@ -18,17 +18,17 @@
       <h1>Social Media</h1>
       <ul class="sm-list">
         <li>
-          <a class="twitter" target="blank"
+          <a href="https://twitter.com/" target="blank"
             ><i class="fa-brands fa-x-twitter"></i
           ></a>
         </li>
         <li>
-          <a class="facebook" target="blank"
+          <a href="https://www.facebook.com/" target="blank"
             ><i class="fa-brands fa-facebook"></i
           ></a>
         </li>
         <li>
-          <a class="reddit" target="blank"
+          <a href="https://www.reddit.com/" target="blank"
             ><i class="fa-brands fa-square-reddit"></i>
           </a>
         </li>
@@ -41,19 +41,6 @@
     <script>
       let tg = window.Telegram.WebApp;
       tg.expand();
-
-      const link = encodeURI("https://t.me/test_gaming_clicker_bot");
-      const msg = encodeURIComponent("Hey, I found this cool bot");
-      const title = encodeURIComponent("Clicking game on Telegram");
-
-      const fb = document.querySelector(".facebook");
-      fb.href = `https://www.facebook.com/share.php?u=${link}`;
-
-      const twitter = document.querySelector(".twitter");
-      twitter.href = `http://twitter.com/share?&url=${link}&text=${msg}`;
-
-      const reddit = document.querySelector(".reddit");
-      reddit.href = `http://www.reddit.com/submit?url=${link}&title=${title}`;
     </script>
   </body>
 </html>
